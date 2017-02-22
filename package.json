@@ -1,0 +1,23 @@
+{
+  "name": "evidon-promises",
+  "version": "0.0.1",
+  "description": "Demonstrations of JavaScript promises",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaaromy/evidon-promises.git"
+  },
+  "author": "Jaaromy Zierse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaaromy/evidon-promises/issues"
+  },
+  "homepage": "https://github.com/Jaaromy/evidon-promises#readme",
+  "dependencies": {
+    "bluebird": "3.4.7",
+    "express": "4.14.1"
+  }
+}

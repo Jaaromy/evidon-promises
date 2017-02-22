@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/promises.js"></script>
+	<script src="app/callbacks.js"></script>
+</head>
+
+<body>
+	<div ng-controller="PromisesController">
+			<label>Name:</label>
+			<input type="text" ng-click="getSalary" placeholder="Enter a name here"><button ng-click="getSalary()"></button>
+			<hr>
+			<h1>Hello {{yourName}}!</h1>
+
+	</div>
+
+	<div ng-controller="CallbacksController">
+	</div>
+
+</body>
+
+</html>
